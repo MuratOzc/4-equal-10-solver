@@ -81,6 +81,8 @@ while True:
         
     # Output the solutions
     if solutions:
-        print(f"\nSolution:\n\n{solutions[:1]}\n\nAll solutions:{solutions}\n")
+        print(f"\nSolution:\n\n{solutions[:1]}\n")
+        print(f"\nAll solutions:{solutions}\n")
+        print(f"\nNumber of solutions: {len(solutions)}\n")
     else:
         print("\nNo solutions found.\n")
